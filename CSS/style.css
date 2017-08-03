@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Zilla+Slab+Highlight');
+
+
+body {
+	background: white;
+	font-family: "Slabo 27px", serif;
+	margin: 30px;
+	padding: 0px;
+	height:10000px;
+}
+
+#pagetitle {
+	font-family: "Zilla Slab Highlight";
+	font-size: 70px;
+	margin-left: 0px;
+}
+
+nav {
+	background: black;
+	color:white;
+	height:60px;
+
+}
+
+nav ul{
+	height:100%;
+	display: flex;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 25%;
+	height:100%;
+}
+
+nav ul li a{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px
+	font-size: 20px;
+	color: white; 
+	text-decoration: none;
+	text-align: center;
